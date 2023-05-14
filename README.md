@@ -4,5 +4,6 @@
 
 Дополнительно: сделать отображение пути сверху, bird-eye view. Использовать для этого матрицу гомографии.
 
-
-Usage: <python main.py --video_name video/004.avi --n_frames 10 --get_coord no>
+```bash
+python main.py --video_name video/004.avi --n_frames 10 --get_coord no
+```
