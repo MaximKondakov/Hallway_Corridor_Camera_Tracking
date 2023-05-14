@@ -8,7 +8,7 @@ Usage example:
 ```bash
 python main.py --video_name video/004.avi --n_frames 10 --get_coord no
 ```
-В этом [датасете](http://www.santhoshsunderrajan.com/datasets.html#hfh_tracking) были даны матрицы гомографии для видео,но они оказались не правильными, поэтому я получаю их с помощью cv2.findHomography. Для этого, выбираются ключевые точки пола на изображении, которое продемонстрированно далее, и с помощью функции get_homography_matrix() получается  необходимая матрица.
+В этом [датасете](http://www.santhoshsunderrajan.com/datasets.html#hfh_tracking) были даны матрицы гомографии для видео,но они оказались не правильными, поэтому я получаю их с помощью cv2.findHomography. Для этого, выбираются ключевые точки пола на изображении, и с помощью функции get_homography_matrix() получается  необходимая матрица.
 
 ![Screenshot](additional/Selected_points.png)
 
