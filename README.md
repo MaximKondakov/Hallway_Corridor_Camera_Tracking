@@ -8,3 +8,5 @@ Usage example
 python main.py --video_name video/004.avi --n_frames 10 --get_coord no
 ```
 ![Screenshot](additional/Selected_points.png)
+
+[![Watch the video](additional/track_and_bird.mp4)
